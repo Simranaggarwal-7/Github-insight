@@ -1,0 +1,38 @@
+.search-box{
+  display:flex;
+  gap:10px;
+}
+
+.search-box input{
+  width:300px;
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  outline:none;
+}
+
+.search-box button{
+  background:#4338ca;
+  color:white;
+  border:none;
+  padding:12px 18px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.search-box button:hover{
+  background:#312e81;
+}
+.search-box{
+    flex-direction:column;
+    align-items:center;
+}
+
+.search-box div{
+    display:flex;
+    gap:10px;
+}
+
+small{
+    color:gray;
+}
